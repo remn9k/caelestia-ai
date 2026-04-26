@@ -1,0 +1,37 @@
+{
+  "env_file": "~/.config/caelestia-ai/.env",
+  "api_key_env": "GOOGLE_API_KEY",
+  "models": [
+    {
+      "id": "api/gemma-3-27b-it",
+      "label": "Gemma 3 27B",
+      "provider": "api",
+      "sdk_model": "gemma-3-27b-it",
+      "enabled": true,
+      "attachments": true,
+      "reasoning": false,
+      "variants": []
+    },
+    {
+      "id": "api/gemma-4-31b-it",
+      "label": "Gemma 4 31B",
+      "provider": "api",
+      "sdk_model": "gemma-4-31b-it",
+      "enabled": true,
+      "attachments": true,
+      "reasoning": true,
+      "variants": []
+    },
+    {
+      "id": "api/gemini-3.1-flash-lite-preview",
+      "label": "Gemini 3.1 Flash Lite",
+      "provider": "api",
+      "sdk_model": "gemini-3.1-flash-lite-preview",
+      "enabled": true,
+      "attachments": true,
+      "reasoning": true,
+      "variants": []
+    }
+  ]
+}
+

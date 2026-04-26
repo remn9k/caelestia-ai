@@ -1,0 +1,36 @@
+# Local secrets
+.env
+*.env
+!.env.example
+!config/*.example.env
+
+# Local chat/history dumps
+old_chat.md
+*.log
+*.sqlite
+*.db
+*.dat.json
+google-api-chats.json
+opencode-ui.json
+
+# Generated/cache files
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+node_modules/
+dist/
+build/
+
+# Archives and backups
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.backup
+
+# Editor/OS noise
+.DS_Store
+.idea/
+.vscode/
+
